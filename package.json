@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@decentology/hyperverse": "^1.0.15",
+    "@decentology/hyperverse-ethereum": "^1.0.15",
     "@decentology/hyperverse-evm-erc721": "^1.0.7",
     "next": "12.1.6",
     "react": "18.1.0",

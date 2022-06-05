@@ -190,6 +190,15 @@
     rxjs "^6.6.3"
     stream-browserify "^3.0.0"
 
+"@decentology/hyperverse-ethereum@^1.0.15":
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/@decentology/hyperverse-ethereum/-/hyperverse-ethereum-1.0.15.tgz#791c727eaaca0a289e5e3fe63f231717fdfbf02c"
+  integrity sha512-EmWCY3Jq4WpiTzG9xfpL2OldSHK3wBHQmXqqJ8PlmnSh+yZLREtmgDrYQLuGdnOckPEtfwaRTtmIMI0cztMXpw==
+  dependencies:
+    "@decentology/hyperverse" "^1.0.15"
+    "@decentology/hyperverse-evm" "^1.0.15"
+    "@decentology/unstated-next" "^1.1.9"
+
 "@decentology/hyperverse-evm-erc721@^1.0.7":
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/@decentology/hyperverse-evm-erc721/-/hyperverse-evm-erc721-1.0.7.tgz#0938652aaa4e9432ee11d0dd9615a3b5f42bc250"
