@@ -4,9 +4,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-
 const Home: NextPage = () => {
-	const { Connect } = useEthereum()
+  const { Connect } = useEthereum()
 
   return (
     <div className={styles.container}>
@@ -18,36 +17,59 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to  <a target="_blank" rel="noreferrer" href="https://www.decentology.com/hyperverse">Hyperverse</a> + <a href="https://nextjs.org">Next.js!</a>
+          Welcome to{' '}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.decentology.com/hyperverse"
+          >
+            Hyperverse
+          </a>{' '}
+          + <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
           Get started by creating your tenant in &nbsp;
-          <a target="_blank" rel="noreferrer" href="https://www.decentology.com/hyperverse">eth.hyperverse.dev</a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.decentology.com/hyperverse"
+          >
+            eth.hyperverse.dev
+          </a>
           <br />
-            and updating the Tenant ID to your account in
+          and updating the Tenant ID to your account in
           <code className={styles.code}>pages/_app.tsx</code>
         </p>
 
         <Connect />
 
         <div className={styles.grid}>
-        <a  target="_blank" rel="noreferrer" href="https://docs.hyperverse.dev/" className={styles.card}>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://docs.hyperverse.dev/"
+            className={styles.card}
+          >
             <h2>Hyperverse Docs &rarr;</h2>
             <p>Build web3 applications without writing smart contract code.</p>
           </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://samples.hyperverse.dev/erc721-storybook/"
+            className={styles.card}
+          >
+            <h2>ERC721 Storybook &rarr;</h2>
+            <p>
+              View ERC721 functions and how to utilize them in your
+              dapp
+            </p>
+          </a>
+
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Next.js Docs &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a
-          target="_blank" rel="noreferrer"
-            href="https://github.com/decentology/hyperverse-mono/tree/main/apps/ethereum/erc721"
-            className={styles.card}
-          >
-            <h2>Dapp Examples &rarr;</h2>
-            <p>Discover example dapps built with the Hyperverse.</p>
           </a>
 
           <a
