@@ -11,8 +11,8 @@ This is a NextJS & Hyperverse Boilerplate for the ERC721 Smart Module
 
 ### Prerequisites
 
-- A Tenant Instance of the ERC721 Module. To create one head to https://eth.hyperverse.dev/modules/erc721.
-- A Tenant ID: this will be the public address of the account you used to create your tenant.
+- A tenant instance of the ERC721 Module. To create one head to https://eth.hyperverse.dev/modules/erc721.
+- A `tenantId` : this will be the public address of the account you used to create your tenant.
 
 
 
@@ -33,8 +33,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Replace the tenantId in `pages/app.tsx`. Then you can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
+Before you start modifying the dapp, replace the `tenantId` in `pages/_app.tsx`. 
 
 
 ## Learn More
