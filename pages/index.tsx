@@ -1,4 +1,4 @@
-import { useEthereum } from '@decentology/hyperverse-ethereum'
+import { useEthereum } from '@decentology/hyperverse-ethereum/react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
